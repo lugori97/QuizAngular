@@ -42,7 +42,7 @@ lista:Array<any> = ListaUsuarios;
       this.mujer=this.formulario.get("mujer") as FormGroup;
       this.otro=this.formulario.get("otro") as FormGroup;
   }
- 
+
 crear(){
   let radio:string; 
   if(this.hombre.value=="masculino"){
